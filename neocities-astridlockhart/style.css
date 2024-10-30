@@ -1,0 +1,50 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-image: url("/images/spaceBackground.png"); /* backgroud credit goes to: [ https://www.reddit.com/user/astrellon3/ ] */
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  
+}
+
+h1 {
+  text-align: center;
+  padding: 3px;
+  background-color: Purple;
+  color: white;
+  overflow: hidden;
+
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: Purple;
+  color: white;
+}
+
+a:link, a:visited, a:hover {
+    color: pink; 
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* created to keep div tag from clashing with other elements! A CSS class is an attribute used to define a group of HTML elements in order to apply unique styling and formatting to those elements with CSS. */
+.textblock {
+  display: inline-block;
+  border: 5px solid pink;
+  background-color: lavender;
+  
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
